@@ -1,5 +1,8 @@
 # Ryan Mercier 2024
 # simple example of connecting to coinbase advanced trade websocket and plotting bitcoin price
+#
+# pip3 install coinbase-advanced-py
+# pip3 install mplfinance
 
 from coinbase.websocket import WSClient
 import json
